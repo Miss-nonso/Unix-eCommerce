@@ -29,5 +29,5 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/Miss-nonso/Unix-eCommerce.git
    cd ecommerce-cart
