@@ -8,6 +8,9 @@ nav {
   background: #333;
   color: #fff;
   padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
@@ -16,18 +19,25 @@ nav a {
   text-decoration: none;
 }
 
-.product, .cart ul li {
+.product,
+.cart ul li {
   border: 1px solid #ccc;
   padding: 1rem;
   margin: 1rem;
   border-radius: 5px;
+}
+.product {
+  display: grid;
+  place-items: center;
+  max-width: 270px;
 }
 
 .cart {
   padding: 2rem;
 }
 
-.product img, .cart img {
+.product img,
+.cart img {
   max-width: 100px;
 }
 
