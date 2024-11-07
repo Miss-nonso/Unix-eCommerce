@@ -56,7 +56,7 @@ npm run build
 
 This will create a `build` folder containing optimized and minified files that you can deploy to any hosting provider.
 
-[Click here to view this app](https://ecommerce-mod.vercel.app/)
+🔗 [Click here to view this app](https://ecommerce-mod.vercel.app/)
 
 
 ## Technologies Used
