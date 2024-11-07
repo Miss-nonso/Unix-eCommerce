@@ -1,105 +1,74 @@
-E-commerce Shopping Cart
 
-This is a simple e-commerce shopping cart application built using React, Redux, and Context API. It allows users to add products to a cart, manage their quantities, and switch between light and dark themes.
+# E-Commerce Shopping Cart
 
-Features
+This project is a fully functional e-commerce shopping cart application built with React, Redux, and the Context API. It allows users to browse products, add them to a shopping cart, and manage inventory. The application is designed to be responsive and works seamlessly across various screen sizes.
 
-Add products to the cart
+## Features
 
-Remove products from the cart
+- **Product Listing**: Fetches products from a public API and displays them in a responsive grid layout.
+- **Add to Cart**: Users can add products to their shopping cart.
+- **Inventory Management**: Product details like price, title, and image are fetched and displayed.
+- **Responsive Design**: The app is fully responsive, ensuring that it looks great on devices of all screen sizes.
+- **Redux for State Management**: Redux is used to manage the shopping cart's state, ensuring a smooth user experience.
+- **Context API**: Used for managing inventory data across components.
+- **Hover Effects & Smooth Transitions**: The UI is enhanced with hover effects on product cards and smooth transitions for buttons.
 
-Increase or decrease product quantities
+## Installation and Setup
 
-Light and Dark theme toggling
+### Prerequisites
 
-Responsive design
+Before setting up the project, ensure you have the following installed:
 
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (Node package manager)
 
-Tools Used
+### Steps to Set Up
 
-React: For building the user interface.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Miss-nonso/UI-task.git
+   cd ecommerce-cart
+   ```
 
-Redux: For state management, particularly for the shopping cart.
+2. **Install dependencies**:
+   Navigate to the project directory and install the required dependencies using npm:
+   ```bash
+   npm install
+   ```
 
-Context API: For managing the theme state.
+3. **Start the development server**:
+   After installing dependencies, start the React development server:
+   ```bash
+   npm start
+   ```
 
-React Router: For navigation.
+   This will launch the app in your default web browser at `http://localhost:3000`.
 
-Fetch API: For fetching product data from a public API.
+4. **Open in your browser**:
+   Your e-commerce cart should now be up and running. You can add products to the cart and navigate between pages.
 
+### Running in Production Mode
 
-How Redux and Context API Were Used
+To create a production build of the app, run:
+```bash
+npm run build
+```
 
-Redux: Utilized for managing the cart state. The cartSlice handles actions such as adding, removing, and updating quantities of products in the cart.
+This will create a `build` folder containing optimized and minified files that you can deploy to any hosting provider.
 
-Context API: Used to manage the theme state. The ThemeContext allows for toggling between light and dark themes across the application.
+## Deployment
 
-
-Running the Application
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-
-git clone https://github.com/Miss-nonso/Unix-eCommerce.git
-cd ecommerce-cart
-
-
-2. Install dependencies:
-
-npm install
-
-
-3. Start the development server:
-
-npm start
-
-
-4. Open your browser and navigate to http://localhost:3000 to view the application.
-
-
-
-Usage
-
-Browse through the product listings.
-
-Click on "Add to Cart" to add items to your shopping cart.
-
-Use the cart interface to remove items or change their quantities.
-
-Toggle between light and dark themes using the theme switcher.
-
-
-Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-
-
-2. Create a new branch for your feature or bug fix:
-
-git checkout -b feature-name
-
-
-3. Commit your changes:
-
-git commit -m 'Add some feature'
-
-
-4. Push to the branch:
-
-git push origin feature-name
-
-
-5. Open a pull request.
+Once the app is built, it can be deployed to platforms like [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or any static site hosting service.
 
 
 
-License
+[Live Demo](https://ecommerce-mod.vercel.app/)
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Acknowledgments
+## Technologies Used
 
-Fake Store API for providing the product data used in this application.
+- **React**: JavaScript library for building user interfaces.
+- **Redux**: State management library to handle global state for the cart.
+- **Context API**: For managing inventory data across components.
+- **CSS**: Styling using external CSS with flexbox and grid layout.
+- **Media Queries**: For responsive design across screen sizes.
